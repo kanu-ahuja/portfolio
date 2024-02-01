@@ -123,7 +123,6 @@ const About = () => {
               <h2 className='All_intership'>During my 6-month internship at Mad Brains Company, I had the invaluable opportunity to apply and enhance my skills in a professional setting. Collaborating with a dynamic team, I actively contributed to [specific projects, tasks, or areas of focus]. This hands-on experience allowed me to bridge the gap between theoretical knowledge gained during my academic studies and the practical demands of the industry.</h2>
             </div>
           </div>
-
           <div className='about_card'>
             <div className='about_cards'>
               <img src={portfolio} className='about_image' alt='error' />
