@@ -760,4 +760,8 @@ textarea {
     padding-bottom: 36%;
     padding-top: 0;
   }
+
+  .second_card {
+    font-size: 21px;
+  }
 }
