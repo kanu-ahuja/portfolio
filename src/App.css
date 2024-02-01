@@ -540,7 +540,6 @@ textarea {
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
   }
 
   .introduction_image {
