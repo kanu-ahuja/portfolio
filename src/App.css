@@ -326,6 +326,7 @@ header .header_links h2 {
 .contact_page {
   padding-bottom: 124px;
   background: var(--secondary--color);
+  height: 100vh;
 }
 
 .about_heading {
