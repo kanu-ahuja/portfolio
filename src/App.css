@@ -55,8 +55,6 @@ a {
   max-height: 914px;
 }
 
-/**/
-
 .header_links a {
   width: 50px;
   height: 50px;
@@ -238,19 +236,15 @@ header .header_links h2 {
   border-radius: 30px;
   color: #ffb000f2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   gap: 40px;
+  text-align: center;
 }
 
 .myskills_headings {
   color: var(--primary--color);
-  font-size: 21px;
+  font-size: 15px;
 }
-
-.headings_cards {
-  text-align: center;
-}
-
 
 .about_year {
   border: 2px solid var(--primary--color);
@@ -285,60 +279,16 @@ header .header_links h2 {
   font-size: 16px;
 }
 
-.progress-bar {
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  color: var(--primary--color);
-
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background:
-    radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#ffb000f2 96%, #323232 0);
-}
-
-.progress_cards {
-  background:
-    radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#ffb000f2 95%, #323232 0);
-}
-
-.progress_lessthan75 {
-  background:
-    radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#ffb000f2 80%, #323232 0);
-}
-
-.progress_lessthan60 {
-  background:
-    radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#ffb000f2 60%, #323232 0);
-}
-
-.headings_cards {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.progress_greaterthan80 {
-  background:
-    radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#ffb000f2 75%, #323232 0);
-}
 
 .about_card {
   display: flex;
   gap: 30px;
   align-items: start;
+}
 
-
+.skills_images {
+  max-width: 70px;
+  width: 100%;
 }
 
 .about_image {
@@ -373,7 +323,7 @@ header .header_links h2 {
 }
 
 .contact_page {
-  padding-bottom: 128px;
+  padding-bottom: 124px;
   background: var(--secondary--color);
 }
 
@@ -544,7 +494,7 @@ textarea {
 
 .contact_buttton:hover {
   background: #ffb00f;
-  transition: all .25s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects_headings {
@@ -698,10 +648,6 @@ textarea {
     display: none;
   }
 
-  .progress-bar {
-    width: 100px;
-    height: 100px;
-  }
 
   .personal_fields {
     display: flex;
@@ -710,7 +656,7 @@ textarea {
   }
 
   .myskills_loader {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .heading,

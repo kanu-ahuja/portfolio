@@ -2,8 +2,14 @@ import React from 'react'
 import portfolio from '../image/portfolio.png'
 import image_download from '../image/download.png'
 import projects from '../image/portfolio.png'
+import htmlimg from '../image/html.svg'
+import cssimg from '../image/css.svg'
+import jsimg from '../image/javascript.svg'
+import reactjs from '../image/react.svg'
+import nodejs from '../image/nodejs.svg'
+import github from '../image/github.svg'
+import mysql from '../image/mysql.svg'
 const About = () => {
-
   const onButtonClick = async () => {
     console.log("hiii")
     await fetch("/kanu.pdf").then((response) => {
@@ -73,42 +79,37 @@ const About = () => {
           <h3 className='second_card'>MY SKILLS</h3>
           <div className='skills'>
             <div className='myskills_loader'>
-              <div className='headings_cards'>
-                <div className='progress-bar'>
-                  <h3>96%</h3>
-                </div>
+              <div>
+                <img src={htmlimg} className='skills_images' alt='error' />
                 <h3 className='myskills_headings'>HTML</h3>
-
               </div>
-              <div className='headings_cards'>
-                <div className='progress-bar progress_cards'>
-                  <h3>95%</h3>
-                </div>
+              <div>
+                <img src={cssimg} className='skills_images' alt='error' />
                 <h3 className='myskills_headings'>CSS</h3>
               </div>
-              <div className='headings_cards'>
-                <div className='progress-bar progress_lessthan75'>
-                  <h3>80%</h3>
-                </div>
+              <div>
+                <img src={jsimg} className='skills_images' alt='error' />
                 <h3 className='myskills_headings'>JAVASCRIPT</h3>
               </div>
-
-              <div className='headings_cards'>
-                <div className='progress-bar progress_lessthan60'>
-                  <h3>60%</h3>
-                </div>
+              <div>
+                <img src={reactjs} className='skills_images' alt='error' />
                 <h3 className='myskills_headings'>REACT</h3>
               </div>
-              <div className='headings_cards'>
-                <div className='progress-bar progress_greaterthan80'>
-                  <h3>75%</h3>
-                </div>
+              <div>
+                <img src={nodejs} className='skills_images' alt='error' />
                 <h3 className='myskills_headings'>NODE JS</h3>
+              </div>
+              <div>
+                <img src={github} className='skills_images' alt='error' />
+                <h3 className='myskills_headings'>GITHUB</h3>
+              </div>
+              <div>
+                <img src={mysql} className='skills_images' alt='error' />
+                <h3 className='myskills_headings'>MYSQL</h3>
               </div>
             </div>
           </div>
         </div>
-
 
         <h3 className='second_card'>EXPERIENCE & EDUCATION</h3>
         <div className='experience_education'>
